@@ -1,0 +1,191 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* HEADER LAYOUT
+/*******************************************/
+header{
+  margin-top: 0px;
+  width: 100%;
+}
+
+.sourcelogo, .primarynav{
+  float: left;
+  width: 33.3333%;
+}
+
+.btn1{
+  display: inline-block;
+  float: right;
+  border: solid rgb(38, 58, 74);
+  background: rgb(38, 58, 74);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 30px;
+  width: 80px;
+  height: 30px;
+}
+
+.primarynav li{
+  float: left;
+  width: 25%;
+  display: inline-block;
+  list-style: none;
+}
+
+.primarynav a{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(38, 58, 74);
+  text-decoration: none;
+}
+
+.sourcelogo{
+  color: rgb(38, 58, 74);
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 30px;
+}
+
+.primarynav{
+  display: inline-block;
+}
+
+
+
+/******************************************
+/* SECTION LAYOUT
+/*******************************************/
+main{
+  width: 100%;
+}
+
+.box1{
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.box1a{
+  padding-top: 100px;
+  padding-left: 30px;
+  float: left;
+  text-align: center;
+  width: 60%;
+  height: 70%;
+}
+
+.box1a > p, h1, form, .searchbox{
+  margin-left: 100px;
+  color: rgb(38, 58, 74);
+}
+
+.tagline{
+  color: solid gray;
+  text-align: left;
+}
+
+.box1a > h1{
+  width: 300px;
+  text-align: left;
+  color: rgb(38, 58, 74);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.searchbox{
+  float: left;
+  width: 55%;
+}
+
+.searchbtn{
+  float: right;
+  border: 1px solid rgb(38, 58, 74);
+  background: rgb(38, 58, 74);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 15%;
+}
+
+.box1sentence{
+  clear: left;
+  text-align: left;
+  padding-top: 20px;
+  color: rgb(38, 58, 74);
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+}
+
+img{
+  padding-top: 50px;
+  float: left;
+  width: 50%;
+  height: auto;
+
+}
+
+.featurerows{
+  float: left;
+  width: auto;
+  margin-left: 125px;
+  margin-top: 50px;
+}
+
+.featurerows > i{
+  font-size: 30px;
+}
+
+.f1, .f2, .f3, .f4{
+  float: left;
+  width: 20%;
+  padding-right: 50px;
+}
+
+.f1, .f2, .f3, .f4 > h3, p, a{
+  color: rgb(38, 58, 74);
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+
+.featurerows > h3, a{
+  font-weight: bold;
+}
+
+.f1, .f2, .f3, .f4 > p{
+
+}
+
+
+/******************************************
+/* FOOTER LAYOUT
+/*******************************************/
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
